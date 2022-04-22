@@ -1,16 +1,14 @@
-﻿Imports DevExpress.XtraReports.UI
-Imports System
-Imports System.Collections
+Imports DevExpress.XtraReports.UI
 Imports System.ComponentModel
 Imports System.Drawing
 
 Namespace RunningSumm
-	Partial Public Class XtraReport1
-		Inherits DevExpress.XtraReports.UI.XtraReport
 
-		Public Sub New()
-			InitializeComponent()
-		End Sub
+    Public Partial Class XtraReport1
+        Inherits XtraReport
 
-	End Class
+        Public Sub New()
+            InitializeComponent()
+        End Sub
+    End Class
 End Namespace
