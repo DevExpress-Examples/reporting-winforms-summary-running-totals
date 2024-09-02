@@ -153,7 +153,7 @@ Namespace RunningSumm
             ' xrLabel4
             ' 
             Me.xrLabel4.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ProductName]")})
-            Me.xrLabel4.Font = New System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, (CByte((0))))
+            Me.xrLabel4.Font = New DevExpress.Drawing.DXFont("Arial", 10.8F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, New DevExpress.Drawing.DXFontAdditionalProperty() {New DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", (CByte((0))))})
             Me.xrLabel4.LocationFloat = New DevExpress.Utils.PointFloat(0F, 0F)
             Me.xrLabel4.Multiline = True
             Me.xrLabel4.Name = "xrLabel4"
@@ -190,7 +190,7 @@ Namespace RunningSumm
             Me.DataMember = "ProductReports"
             Me.DataSource = Me.sqlDataSource1
             Me.FilterString = "[ProductName] = 'Tofu'"
-            Me.Font = New System.Drawing.Font("Arial", 9.75F)
+            Me.Font = New DevExpress.Drawing.DXFont("Arial", 9.75F)
             Me.Version = "21.2"
             CType((Me), System.ComponentModel.ISupportInitialize).EndInit()
         End Sub
